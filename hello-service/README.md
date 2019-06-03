@@ -36,11 +36,11 @@ $ ./gradlew run
 
 ### Docker Setup
 
-Docker Build
+- Docker Build
 ```sh
 $ docker build -t hello-service .
 ```
-- Run
+- Docker Run
 ```sh
 $ docker run -p 8080:8080 hello-service
 ```
