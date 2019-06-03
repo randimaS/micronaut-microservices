@@ -1,4 +1,4 @@
-package hello.service;
+package com.randi.hello;
 
 import io.micronaut.runtime.Micronaut;
 

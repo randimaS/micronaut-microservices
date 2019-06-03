@@ -10,7 +10,7 @@ plugins {
 
 
 version "0.1"
-group "hello.service"
+group "com.randi.hello"
 
 repositories {
     mavenCentral()
@@ -45,7 +45,7 @@ dependencies {
 
 test.classpath += configurations.developmentOnly
 
-mainClassName = "hello.service.Application"
+mainClassName = "com.randi.hello.Application"
 // use JUnit 5 platform
 test {
     useJUnitPlatform()
